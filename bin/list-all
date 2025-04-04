@@ -9,9 +9,9 @@ plugin_dir=$(dirname "$(dirname "$current_script_path")")
 source "${plugin_dir}/lib/utils.bash"
 
 list_all_versions() {
-  git ls-remote --tags --refs https://github.com/apple/pkl.git |
-    awk '!/({})/ {print $2}' |
-    cut -f3 -d/
+	git ls-remote --tags --refs https://github.com/apple/pkl.git |
+		awk '!/({})/ {print $2}' |
+		cut -f3 -d/
 }
 
 list_all_versions | xargs echo
