@@ -44,7 +44,7 @@ install_version() {
 		;;
 	esac
 
-    mkdir -p "$install_path/bin"
+	mkdir -p "$install_path/bin"
 	curl -s -L -o "$install_path/bin/pkl" "https://github.com/apple/pkl/releases/download/${install_version}/pkl-${os_type}-${arch_type}"
 	chmod +x "$install_path/bin/pkl"
 	return 0
