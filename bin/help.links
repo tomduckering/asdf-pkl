@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+echo "\
+Git Repository:	https://github.com/apple/pkl
+Documentation:	https://pkl-lang.org"
