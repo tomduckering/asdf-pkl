@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+echo "\
+This plugin installs the pkl command which is for working with the Pkl language.
+Pkl, pronounced \"pickle\", is an Open Source configuration-as-code language with rich validation and tooling."
